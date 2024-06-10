@@ -2,8 +2,10 @@
 
 Welcome to the Connect 4 game implemented in React! This project includes the classic Connect 4 game, where two players take turns dropping colored discs into a grid, aiming to be the first to connect four discs in a row vertically, horizontally, or diagonally.
 
-![image](https://github.com/parita2003/Connect-4-Game/assets/126491686/237ad7bf-3bc5-4965-a85f-809da0fb2bfc)
-![image](https://github.com/parita2003/Connect-4-Game/assets/126491686/3711ad2b-6483-44ab-a709-2c42587fa4a6)
+<div style="display: flex; justify-content: center;">
+    <img src="https://github.com/parita2003/Connect-4-Game/assets/126491686/237ad7bf-3bc5-4965-a85f-809da0fb2bfc" alt="image" style="width: 200px; margin-right: 20px;">
+    <img src="https://github.com/parita2003/Connect-4-Game/assets/126491686/3711ad2b-6483-44ab-a709-2c42587fa4a6" alt="image" style="width: 200px;">
+</div>
 
 ## Deployed Link
 
