@@ -1,0 +1,100 @@
+.board{
+    display: grid;
+    grid-template-columns : repeat(4,1fr); 
+    grid-template-rows:repeat(4,1fr);
+    padding: 20px;
+    width: 480px;
+    position: absolute;
+    left:50%;
+    margin-left: -250px;
+    top: 20%;
+    background-color: #e1ccf5;
+    border: 8px solid rgb(174, 118, 184);
+    border-radius: 8%;
+    -webkit-box-shadow: 7px 5px 15px 3px rgb(42, 3, 69);
+    box-shadow: 7px 5px 15px 3px rgb(42, 3, 69);
+}
+
+.circle{
+    width:70px; 
+    height:70px; 
+    margin:10px;
+    border-radius: 50%;
+    border: 5px solid black;
+}
+
+.Player_0{
+    background-color: white;
+}
+
+.Player_1{
+    background-color: rgb(219, 129, 171);
+}
+.Player_2{
+    background-color: rgb(185, 205, 249);
+}
+
+.panel{
+    position: absolute;
+    background-color:lightgoldenrodyellow ;
+    border: 8px solid burlywood;
+    -webkit-box-shadow: 7px 5px 15px 3px rgb(42, 3, 69);
+    box-shadow: 7px 5px 15px 3px rgb(42, 3, 69);
+    z-index: 1;
+}
+.header{
+    left:48%;
+    top: 90px;
+    height: 80px;
+    width: 300px;
+    margin-left: -120px;
+}
+.header-text{
+    font-size: 30px;
+    font-weight: bold;
+    width: 200px;
+    margin: 0;
+    position: absolute;
+    top:50%;
+    left:50%;
+    -ms-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+}
+body{
+    background-color: rgb(51, 9, 80);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.app-container{
+    width: 800px;
+    height:800px;
+    position: absolute;
+    left:50%;
+    margin-left: -400px;
+}
+
+.footer{
+    left:48%;
+    top: 600px;
+    height: 80px;
+    width: 300px;
+    margin-left: -120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.footer button{
+   margin-top: 15px;
+    margin-left: 5px;
+    width: 140px;
+    height: 50px;
+    background-color: rgb(237, 213, 243);
+    font-size: 20px;
+    -webkit-box-shadow: 3px 5px 10px 2px rgb(42, 3, 69);
+    box-shadow: 3px 5px 10px 2px rgb(42, 3, 69);
+    border : 5px solid rgb(79, 11, 110);
+    font-weight: bold;
+}
+.footer button:hover{
+    background-color: rgb(79, 11, 110);
+    color: aliceblue;
+}
