@@ -9,7 +9,7 @@ Welcome to the Connect 4 game implemented in React! This project includes the cl
 
 ## Deployed Link
 
-You can play the game [here](https://66668234b7dd97621716fc08--comforting-figolla-10e06c.netlify.app/).
+You can play the game [here](https://4-connect-project-react.netlify.app/).
 
 ## Components
 
